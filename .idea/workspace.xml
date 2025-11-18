@@ -53,7 +53,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/appbites/Desktop/mlfs-book/mlfs",
+    "last_opened_file_path": "/Users/appbites/Desktop/mlfs-book/docs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/mlfs" />
       <recent name="$PROJECT_DIR$/docs/_includes" />
       <recent name="$PROJECT_DIR$/notebooks/airquality" />
@@ -108,7 +109,7 @@
       <workItem from="1763214904035" duration="62000" />
       <workItem from="1763373366546" duration="908000" />
       <workItem from="1763466760187" duration="4602000" />
-      <workItem from="1763471380419" duration="838000" />
+      <workItem from="1763471380419" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -222,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763471957078</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates">
+      <option name="closed" value="true" />
+      <created>1763472329479</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763472329479</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -38,7 +38,7 @@ jobs:
 
           # List of ALL station secret names (Hopsworks secrets)
           for SENSOR_NAME in \
-            SENSOR_LOCATION_JSON_belgradplatz--s--dostecke---gstr-nr--816 \
+            SENSOR_LOCATION_JSON_belgradplatz--s-dostecke---gstr-nr--816 \
             SENSOR_LOCATION_JSON_ecke-taborstra--e---glockengasse \
             SENSOR_LOCATION_JSON_floridsdorf--gerichtsgasse-1a--prager-str--65m \
             SENSOR_LOCATION_JSON_hausgrundweg-23--gstr--254 \
