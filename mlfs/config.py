@@ -6,7 +6,6 @@ from pydantic import SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 import os
 
-
 class FraudDatasetSize(Enum):
     LARGE = "LARGE"
     MEDIUM = "MEDIUM"
@@ -19,8 +18,8 @@ class HopsworksSettings(BaseSettings):
         env_file_encoding='utf-8',
         extra='ignore'
     )
-
-    MLFS_DIR: Path = Path(_file_).parent
+    
+    MLFS_DIR: Path = Path(__file__).parent
 
     # For hopsworks.login(), set as environment variables if they are not already set as env variables
     HOPSWORKS_API_KEY: SecretStr | None = None
@@ -33,11 +32,12 @@ class HopsworksSettings(BaseSettings):
     AQICN_CITY: str | None = None
     AQICN_STREET: str | None = None
     AQICN_URL: str | None = None
-
+    
     # Other API Keys
-    FELDERA_API_KEY: SecretStr | None = None
+    FELDERA_API_KEY: SecretStr | None = None    
     OPENAI_API_KEY: SecretStr | None = None
     OPENAI_MODEL_ID: str = "gpt-4o-mini"
+
 
     # Feature engineering
     FRAUD_DATA_SIZE: FraudDatasetSize = FraudDatasetSize.SMALL
@@ -108,4 +108,4 @@ class HopsworksSettings(BaseSettings):
             raise ValueError(
                 "The following required settings are missing from your environment (.env or system):\n  " +
                 "\n  ".join(missing)
-            ) """
+            ) """    

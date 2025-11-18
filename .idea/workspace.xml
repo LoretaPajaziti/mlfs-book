@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a693c7c-461c-4aa6-980f-5ea09300c427" name="Changes" comment="updates" />
+    <list default="true" id="3a693c7c-461c-4aa6-980f-5ea09300c427" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlfs/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlfs/config.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/appbites/Desktop/mlfs-book/docs/_includes",
+    "last_opened_file_path": "/Users/appbites/Desktop/mlfs-book/mlfs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mlfs" />
       <recent name="$PROJECT_DIR$/docs/_includes" />
       <recent name="$PROJECT_DIR$/notebooks/airquality" />
       <recent name="$PROJECT_DIR$/data" />
@@ -104,7 +108,7 @@
       <workItem from="1763214904035" duration="62000" />
       <workItem from="1763373366546" duration="908000" />
       <workItem from="1763466760187" duration="4602000" />
-      <workItem from="1763471380419" duration="110000" />
+      <workItem from="1763471380419" duration="559000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -202,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763471473425</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updates">
+      <option name="closed" value="true" />
+      <created>1763471524710</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1763471524710</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
