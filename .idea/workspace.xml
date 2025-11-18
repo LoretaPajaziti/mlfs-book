@@ -5,7 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a693c7c-461c-4aa6-980f-5ea09300c427" name="Changes" comment="updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/vienna_station_2860_taborstrasse.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/14537/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/2850/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/2855/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/2857/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/2860/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/2870/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/4736/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/4738/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/air-quality/assets/img/4739/pm25_forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/.cache.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/air_quality_model/images/feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/air_quality_model/images/pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/air_quality_model/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/14537_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/2850_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/2855_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/2857_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/2860_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/2870_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/4736_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/4738_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/4739_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/images/feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/14537_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/2850_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/2855_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/2857_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/2860_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/2870_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/4736_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/4738_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/4739_pm25_hindcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/images/feature_importance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/airquality/stations_air_quality_model_several_stations_with_lag/model.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +59,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -50,9 +90,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Reverting in main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/appbites/Desktop/mlfs-book/docs",
+    "last_opened_file_path": "/Users/appbites/Desktop/mlfs-book",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,6 +149,9 @@
       <workItem from="1763373366546" duration="908000" />
       <workItem from="1763466760187" duration="4602000" />
       <workItem from="1763471380419" duration="1894000" />
+      <workItem from="1763476742200" duration="217000" />
+      <workItem from="1763476997814" duration="88000" />
+      <workItem from="1763477095720" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -280,7 +323,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/scale-aqi" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
