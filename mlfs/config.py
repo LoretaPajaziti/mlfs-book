@@ -6,6 +6,7 @@ from pydantic import SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 import os
 
+
 class FraudDatasetSize(Enum):
     LARGE = "LARGE"
     MEDIUM = "MEDIUM"
@@ -18,8 +19,8 @@ class HopsworksSettings(BaseSettings):
         env_file_encoding='utf-8',
         extra='ignore'
     )
-    
-    MLFS_DIR: Path = Path(__file__).parent
+
+    MLFS_DIR: Path = Path(_file_).parent
 
     # For hopsworks.login(), set as environment variables if they are not already set as env variables
     HOPSWORKS_API_KEY: SecretStr | None = None
@@ -32,12 +33,11 @@ class HopsworksSettings(BaseSettings):
     AQICN_CITY: str | None = None
     AQICN_STREET: str | None = None
     AQICN_URL: str | None = None
-    
+
     # Other API Keys
-    FELDERA_API_KEY: SecretStr | None = None    
+    FELDERA_API_KEY: SecretStr | None = None
     OPENAI_API_KEY: SecretStr | None = None
     OPENAI_MODEL_ID: str = "gpt-4o-mini"
-
 
     # Feature engineering
     FRAUD_DATA_SIZE: FraudDatasetSize = FraudDatasetSize.SMALL
@@ -77,7 +77,7 @@ class HopsworksSettings(BaseSettings):
             if self.HOPSWORKS_HOST is not None:
                 os.environ['HOPSWORKS_HOST'] = self.HOPSWORKS_HOST
 
-        # --- Check required .env values ---
+        """ # --- Check required .env values ---
         missing = []
         # 1. HOPSWORKS_API_KEY
         api_key = self.HOPSWORKS_API_KEY or os.getenv("HOPSWORKS_API_KEY")
@@ -102,10 +102,10 @@ class HopsworksSettings(BaseSettings):
         # 6. AQICN_URL
         aqicn_url = self.AQICN_URL or os.getenv("AQICN_URL")
         if not aqicn_url:
-            missing.append("AQICN_URL")
+            missing.append("AQICN_URL") """
 
-        if missing:
+        """ if missing:
             raise ValueError(
                 "The following required settings are missing from your environment (.env or system):\n  " +
                 "\n  ".join(missing)
-            )    
+            ) """
